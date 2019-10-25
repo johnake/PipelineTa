@@ -2,7 +2,7 @@ variable "instance_type" {
   default = "t2.micro"
 }
 variable "key_name" {
-  default = "jenkins_key4"
+  default = "jenkins_key1"
 }
 variable "ami_id" {
   default = "ami-0ce71448843cb18a1"
@@ -28,6 +28,14 @@ variable "environment" {
 variable "vpc_cidr" {
   description = "CIDR for the whole VPC"
   default     = "10.0.0.0/16"
+}
+
+variable "var.subnet_id" {
+  default = ""
+}
+
+variable "var.vpc_id" {
+  default = ""
 }
 
 variable "az_count" {
