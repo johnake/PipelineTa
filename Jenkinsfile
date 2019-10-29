@@ -3,13 +3,13 @@ Pipeline {
     stages {
         stage ("perform terraform initialization") {
             steps {
-                sh ' terraform init'
+                sh 'terraform init'
             }
         }
 
         stage ("apply terrform") {
             steps {
-                sh 'terraform apply --auto-approve'
+                sh 'terraform apply -auto-approve'
             }
         }
     }
