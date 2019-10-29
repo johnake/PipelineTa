@@ -31,11 +31,11 @@ variable "vpc_cidr" {
 }
 
 variable "subnet_id" {
-  default = "subnet-07948a0cd35b03c58"
+  default = "subnet-025b773f449bdde06"
 }
 
 variable "vpc_id" {
-  default = "vpc-0f7bc11cb9f6b583f"
+  default = "vpc-0cfb07abe10d66f2c"
 }
 
 variable "az_count" {
