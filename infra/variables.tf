@@ -30,12 +30,12 @@ variable "vpc_cidr" {
   default     = "10.0.0.0/16"
 }
 
-variable "var.subnet_id" {
-  default = ""
+variable "subnet_id" {
+  default = "subnet-07948a0cd35b03c58"
 }
 
-variable "var.vpc_id" {
-  default = ""
+variable "vpc_id" {
+  default = "vpc-0f7bc11cb9f6b583f"
 }
 
 variable "az_count" {
