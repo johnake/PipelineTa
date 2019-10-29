@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ("perform terraform initialization") {
             steps {
-                sh 'cd infra && terraform init'
+                sh 'terraform init'
             }
         }
 
